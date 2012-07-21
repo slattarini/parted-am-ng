@@ -2,6 +2,7 @@
 *.l[ao]
 *.trs
 *~
+.am/
 .deps
 .gdb-history
 .libs
@@ -81,3 +82,4 @@ tests/print-align
 tests/print-max
 tests/t*.log
 tests/test-suite.log
+!/m4/mkdirp-compat.m4

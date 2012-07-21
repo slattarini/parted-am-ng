@@ -3,7 +3,7 @@ dnl Copyright (C) 1998-2002, 2005-2012 Free Software Foundation, Inc.
 dnl
 dnl This file may be modified and/or distributed without restriction.
 
-AC_PREREQ([2.63])
+AC_PREREQ([2.65])
 AC_INIT([GNU parted], m4_esyscmd([build-aux/git-version-gen .version]),
         [bug-parted@gnu.org])
 
@@ -52,8 +52,7 @@ AC_SUBST([LT_CURRENT])
 AC_SUBST([LT_REVISION])
 AC_SUBST([LT_AGE])
 
-AM_INIT_AUTOMAKE([1.11.6 no-dist-gzip dist-xz color-tests parallel-tests
-                  subdir-objects])
+AM_INIT_AUTOMAKE([ng])
 AM_SILENT_RULES([yes]) # make --enable-silent-rules the default.
 
 AC_CANONICAL_HOST

@@ -1,6 +1,8 @@
 ACLOCAL_AMFLAGS = -I m4
 SUBDIRS = po lib include libparted parted partprobe doc debug tests
 
+AM_DIST_FORMATS = xz
+
 EXTRA_DIST =				\
   .version				\
   .prev-version				\
